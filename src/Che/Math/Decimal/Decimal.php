@@ -30,7 +30,7 @@ class Decimal
     const ROUND_HALF_ODD    = 8;
     const ROUND_UNNECESSARY = 9;
 
-    const STRING_FORMAT_REGEX  = '/^([-+])?([0-9]+)(.([0-9]+))?$/';
+    const STRING_FORMAT_REGEX  = '/^([-+])?([0-9]+)(\.([0-9]+))?$/';
 
     private $value;
     private $scale;
