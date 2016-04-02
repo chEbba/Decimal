@@ -283,6 +283,7 @@ class DecimalTest extends TestCase
             array('123.45a', 'Wrong char in fraction'),
             array('123.', 'Empty fraction'),
             array('.45', 'Empty integer'),
+            array('-123,45', 'Wrong separator')
         );
     }
 
